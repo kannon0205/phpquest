@@ -1,0 +1,213 @@
+@charset "utf-8";
+
+body {
+  font-family: 'Kosugi Maru',
+    sans-serif;
+  color: #586365;
+  background-color: #586365;
+}
+
+a {
+  word-wrap: break-word;
+}
+
+textarea {
+  resize: none;
+}
+
+input[type="submit"] {
+  background-color: #FB7D79;
+  color: #fff;
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+  border: 1px solid #586365;
+}
+
+select {
+  border: 1px solid #586365;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.bold {
+  font-weight: bold;
+  margin: 0.2rem;
+}
+
+.red {
+  color: #EB8686;
+}
+
+.green {
+  color: #8CD790;
+}
+
+.blue {
+  color: #6088C6;
+}
+
+/*common*/
+
+.wrapper {
+  width: 680px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.game-window.flex {
+  width: 100%;
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.char-form {
+  width: 100%;
+}
+
+.char-type {
+  width: calc(100% / 2);
+  min-height: 400px;
+  text-align: center;
+  background-size: 230px 340px;
+  background-repeat: no-repeat;
+  padding-top: 3rem;
+}
+
+.type1 {
+  background-image: url('../img/ch1.png');
+  background-position: 60% 50%;
+}
+
+.type2 {
+  background-image: url('../img/ch2.png');
+  background-position: 70% 50%;
+}
+
+.char-name {
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.start {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.status {
+  background-color: #fff;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 16px 0 0 16px;
+}
+
+.status li,
+.equipment li {
+  margin-bottom: 1rem;
+}
+
+.character {
+  background-image: url("../img/bg1.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 70%;
+  justify-content: flex-end;
+  border-radius: 0 16px 16px 0;
+}
+
+.equipment {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 1rem 0;
+  text-align: center;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.wepon,
+.armor {
+  width: 50%;
+}
+
+.destination {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.destination .map {
+  width: 50%;
+  text-align: center;
+  padding: 1rem 0;
+  align-items: center;
+}
+
+.dungeon-name {
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.dungeon .message {
+  padding: 1rem;
+  margin-top: 1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.dungeon .message .submit,
+.dungeon .event-footer .submit {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.event-header {
+  margin-top: 5rem;
+  padding: 1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.event-footer {
+  margin-top: 5rem;
+  padding: 1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+footer {
+  width: 100%;
+  padding: 2rem;
+  color: #fff;
+}
+
+footer p {
+  text-align: center;
+}
