@@ -104,7 +104,7 @@ function battle($enemy) {
       echo
         "<div class='event-footer'>
         <p><span class='red'>あなたは力尽きた。</span></p>
-        <form action='index.php' method='post'>
+        <form action='main.php' method='post'>
         <p class='submit'><input type='submit' value='リトライ'></p>
         </form>
         </div>";

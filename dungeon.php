@@ -102,7 +102,7 @@ $_SESSION['dungeon'] = $_POST['dungeon'];
                         ついに最奥にたどり着いたようだ。<br>
                         少し自信のついたあなたは、晴れやかな気持ちで帰路に就いた。
                       </p>
-                      <form action='index.php' method='post'>
+                      <form action='main.php' method='post'>
                         <p class='submit'><input type='submit' value='町へ戻る'></p>
                       </form>
                     </div>";
