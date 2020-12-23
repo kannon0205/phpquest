@@ -14,7 +14,7 @@
 
   <div class="wrapper">
 
-    <form class="char-form" action="index.php" method="post">
+    <form class="char-form" action="main.php" method="post">
       <div class="game-window flex">
         <div class="char-type type1">
           <p><label><input type="radio" name="charType" value="1" checked>type1</label></p>
